@@ -1,0 +1,14 @@
+To use this program, make sure you have the following python libraries installed:
+
+pip install Flask
+pip install beautifulsoup4
+pip install python-docx
+pip install docx
+
+After you have install the dependancies, open up a command prompt
+or terminal inside of the directory of app.py and type: 'flask run'
+
+then, open a browser and open up the index.htm file inside of it.
+
+If something goes wrong, check both the website console and the python
+console.
