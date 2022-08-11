@@ -44,9 +44,12 @@ def getContent(urls):
     """
 
     global s
+    
+    with open("key.txt", "r") as f: key = f.read().strip()
+
     content = []
     onPage = []
-    semrush = Semrush.semrush("e472db72a04560d630bc4d2866f62cbf")
+    semrush = Semrush.semrush(key)
 
     for url in urls:
         s = Scrape.scrape(url)

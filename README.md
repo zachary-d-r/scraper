@@ -26,12 +26,8 @@ pip3 install html_to_json
 In order to use this, you need to change a few lines in a few files.
 
 ### Put in your Semrush API key
-1. Open the file app.py in the main directory
-2. Find line 47, it looks like this:
-    ```py
-    semrush = Semrush.semrush("YOUR_API_KEY")
-    ```
-3. Change "YOUR_API_KEY" to whatever your Semrush API key is
+1. Create a file called key.txt in the main project directory.
+2. Paste your Semrush API key in the folder and make sure there are no newlines or spaces.
 
 ## Running the application
 1. To run the application, first open a terminal or command prompt window in the project directory and type ```flask run```.
