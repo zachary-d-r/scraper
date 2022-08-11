@@ -11,6 +11,7 @@ pip install beautifulsoup4
 pip install python-docx
 pip install docx
 pip install html_to_json
+pip install pycopy-copy
 ```
 
 For pip3:
@@ -20,6 +21,7 @@ pip3 install beautifulsoup4
 pip3 install python-docx
 pip3 install docx
 pip3 install html_to_json
+pip3 install pycopy-copy
 ```
 
 ## Setting up the application
@@ -34,3 +36,6 @@ In order to use this, you need to change a few lines in a few files.
 2. Next, copy the file path of web/html/index.html and paste it into chrome.
 
 If something goes wrong, check both the website console by hitting f2 and the python console.
+
+## Using the application
+![Alt text](img/Page1.png?raw=true "Title")
