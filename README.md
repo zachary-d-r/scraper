@@ -33,20 +33,8 @@ In order to use this, you need to change a few lines in a few files.
     ```
 3. Change "YOUR_API_KEY" to whatever your Semrush API key is
 
-### Change the Chrome path
-1. Open the file run.sh in the main directory
-2. Find line 1, it looks like this:
-    ```shell
-    PATH="CHROME/PATH/HERE"
-    ```
-3. Change Path to the path to your chrome.exe file
+## Running the application
+1. To run the application, first open a terminal or command prompt window in the project directory and type ```flask run```.
+2. Next, copy the file path of web/html/index.html and paste it into chrome.
 
-## Starting the application
-To start the application, open a terminal and type:
-    ```shell
-    sh run.sh
-    ```
-
-
-If something goes wrong, check both the website console and the python
-console.
+If something goes wrong, check both the website console by hitting f2 and the python console.
