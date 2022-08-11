@@ -5,9 +5,11 @@ from docx.shared import Pt
 import imports.Scrape as Scrape
 import imports.Doc as Doc
 from flask import Flask, jsonify, render_template, request
+from flask_cors import CORS
 from Semrush import Semrush
 
 app = Flask(__name__)
+CORS(app)
 
 def getURLs(urls):
     """
