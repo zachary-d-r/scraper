@@ -38,4 +38,6 @@ In order to use this, you need to change a few lines in a few files.
 If something goes wrong, check both the website console by hitting f2 and the python console.
 
 ## Using the application
-![Alt text](img/Page1.png?raw=true "Title")
+### The first page
+![Alt text](img/Page1.png?raw=true "Page-1")
+When you first open the site, this is what you will see. Here, paste in all of the URLs you want to scrape and click the "Submit" button
