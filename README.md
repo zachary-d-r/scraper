@@ -1,4 +1,4 @@
-# astoundz-scrapper
+# astoundz-scraper
 
 This program is to fill a content dock for given urls
 
