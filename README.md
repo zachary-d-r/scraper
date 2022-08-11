@@ -41,3 +41,10 @@ If something goes wrong, check both the website console by hitting f2 and the py
 ### The first page
 ![Alt text](img/Page1.png?raw=true "Page-1")
 When you first open the site, this is what you will see. Here, paste in all of the URLs you want to scrape and click the "Submit" button
+
+Next you'll be taken to a loading page, here your doc is being created and filled. Just wait until the next page loads
+
+### The last page
+![Alt text](img/Page2.png?raw=true "Page-2")
+Here, paste the path you want to save the doc to including the doc name, for example: ```c:/path/to/doc/docname.docx```. Then click "Save File" and
+you're done! The site will reload and you can close the page and stop the flask server.
