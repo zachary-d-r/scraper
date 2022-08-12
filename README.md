@@ -46,7 +46,7 @@ Next you'll be taken to a loading page, here your doc is being created and fille
 
 ### The last page
 ![Alt text](img/Page2.png?raw=true "Page-2")
-Here, paste the path you want to save the doc to including the doc name, for example: ```c:/path/to/doc/docname.docx```. Then click "Save File" and
+Here, paste the path you want to save the doc to including the doc name, for example: ```c:/path/to/doc/docname.docx``` (Remember to use '/' instead of '\'). Then click "Save File" and
 you're done! The site will reload and you can close the page and stop the flask server.
 
 ## Issues
